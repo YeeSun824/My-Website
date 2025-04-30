@@ -1,9 +1,9 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
-  title: "My Website"
+  title: "Zhongyi Sun's Portfolio"
   navbar:
     left:
       - text: Home
@@ -15,7 +15,8 @@ website:
         file: shiny-apps.qmd
       - text: Shiny Live
         file: shiny-live.qmd
-
+page-footer:
+    center: "© 2025 Zhongyi Sun"
 format:
   html:
     theme: darkly

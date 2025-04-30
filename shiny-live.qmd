@@ -4,7 +4,7 @@ author: Zhongyi Sun
 format: html
 ---
 
-# Introducing Shiny Live   ![](shinylive-blog-2.png){width="150"}
+# Introducing Shiny Live ![](shinylive-blog-2.png){width="150"}
 
 Imagine your Shiny app running entirely in the user’s browser, without a central R server under heavy load. That’s the promise of **Shiny Live**—a serverless approach that packages your app as static files and delivers a full WebAssembly‑powered R runtime directly to the client.
 
@@ -23,7 +23,7 @@ To deploy an app with Shiny Live, you first call `shiny_live::export_app()`, whi
 ## Key Differences & Considerations
 
 | Feature | Traditional Shiny | Shiny Live |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Infrastructure** | Central R server | Static files + CDN |
 | **Scalability** | Limited by server capacity | Scales per user—each client runs locally |
 | **Startup time** | Seconds (warm server) | \~5–10 sec (download + Wasm init) |
